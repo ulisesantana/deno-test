@@ -1,0 +1,12 @@
+{
+    "quiet": false,
+    "extensions": [
+        ".ts",
+        ".json"
+    ],
+    "interval": 500,
+    "watch": [
+        "./"
+    ],
+    "fmt": true
+}

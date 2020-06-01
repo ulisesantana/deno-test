@@ -1,0 +1,18 @@
+{
+    "quiet": false,
+    "extensions": [
+        ".ts",
+        ".json"
+    ],
+    "interval": 500,
+    "watch": [
+        "./"
+    ],
+    "execute": {
+        ".js": ["deno", "run"],
+        ".ts": ["deno", "run"],
+        ".py": ["python"]
+    },
+    "fmt": true,
+    "test": true
+}
